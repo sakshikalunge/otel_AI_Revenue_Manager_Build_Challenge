@@ -101,4 +101,4 @@ Name one revenue-manager question that should load a **skill** but call **`get_s
 Describe pagination strategy + idempotency approach + **anchor date** you will
 scrape against (must match `/verify` on load day).
 
-> Your answer: ETL paginates through all the pages until the pagination exhaustion (Next button disabled) drilling through stay rows data at grain level including financial data using Playwrite. Perform idempotent PostgreSQL Upsert opeartions at reseravtion records * stay_date grain level and reconcile the idempotency against the verify section of data site for the same scrape day anchor date. 
+> Your answer: ETL paginates through all the pages until the pagination exhaustion (Next button disabled) drilling through stay rows data at grain level including financial data using Playwright. Perform idempotent PostgreSQL Upsert opeartions at reseravtion records * stay_date grain level and reconcile the idempotency against the verify section of data site for the same scrape day anchor date. 
