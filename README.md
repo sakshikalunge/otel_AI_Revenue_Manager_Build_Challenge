@@ -4,7 +4,7 @@ A Build Solution for the AI Revenue Manager Agent helping the General Managers u
 
 The Build will be performed as a 5-Phase challenge as follows:
 
-1. Phase 0 - Filling up Attestation.md file and creating one-line ETL Design.
+1. Phase 0 - Filling up Attestation.md file and creating one-line ETL Design in arhcitecture.md.
 2. Phase 1 - Scraping the live Reservation data and other related data from a given data site using Playwrite.
 3. Phase 2 - Creating Semantic views and building tool layer.
 4. Phase 3 - Building skills and architecture required to build an AI agent.
